@@ -91,7 +91,7 @@ namespace ZooKeeper0WPF
             theButton.Child = tb;
             ZooGrid.Children.Add(theButton);
             Grid.SetColumn(theButton, x);
-            Grid.SetRow(theButton, y);
+            Grid.SetRow(theButton, y+2);
             return theButton;
         }
     }
